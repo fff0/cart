@@ -1,0 +1,19 @@
+ul,li{
+  list-style: none;
+}
+.box{
+  display: flex
+}
+.left,.right{
+  border-left: 1px solid #ccc;
+  flex: 1
+}
+.box button{
+  margin-right: 5px;
+  width: 40px;
+  height: 20px;
+}
+li{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
